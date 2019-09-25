@@ -1,0 +1,19 @@
+{
+  "name": "e2j",
+  "version": "1.0.2",
+  "description": "",
+  "bin": {
+    "e2j": "index.js"
+  },
+  "preferGlobal": true,
+  "author": "chenzedong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "debug": "^4.1.1",
+    "node-xlsx": "^0.15.0",
+    "ora": "^4.0.1",
+    "xlsx": "^0.15.1"
+  }
+}
