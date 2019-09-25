@@ -1,12 +1,17 @@
 {
-  "name": "e2j",
-  "version": "1.0.2",
+  "name": "e2j-ha",
+  "version": "1.0.1",
   "description": "",
   "bin": {
     "e2j": "index.js"
   },
   "preferGlobal": true,
-  "author": "chenzedong",
+  "keywords": [
+    "转译",
+    "excel",
+    "json"
+  ],
+  "author": "chenzedong <625402731@qq.com>",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
@@ -15,5 +20,10 @@
     "node-xlsx": "^0.15.0",
     "ora": "^4.0.1",
     "xlsx": "^0.15.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzedong5/e2j.git"
+  },
+  "homepage": "https://github.com/chenzedong5/e2j#readme"
 }

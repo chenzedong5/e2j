@@ -1,6 +1,6 @@
-## e2j excel与json互相转换的命令行工具
+## e2j-ha excel与json互相转换的命令行工具
 
-``` $ npm i e2j -g ```
+``` $ npm i e2j-ha -g ```
 
 #### api
 
