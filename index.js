@@ -6,6 +6,7 @@ const fs = require("fs")
 const path = require('path')
 const ora = require("ora")
 const debug = require("debug")("e2j")
+const process = require("process");
 const {
   jsonToexcel
 } = require('./lib/jsonToexcel');
@@ -26,11 +27,11 @@ program
     }
     let source, result, type;
     if (env.path) {
-      result = path.resolve(__dirname, env.path)
+      result = path.resolve(process.cwd(), env.path)
       let bool = fs.existsSync(result)
       if (!bool) spinner.fail(`当前系统输出文件路径${result}不存在`)
     }
-    source = path.resolve(__dirname, env.source)
+    source = path.resolve(process.cwd(), env.source)
     if (!fs.existsSync(source)) spinner.fail(`当前系统源文件地址${source}不存在`)
     type = path.extname(source)
     try {
