@@ -1,6 +1,6 @@
 {
   "name": "e2j-ha",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "bin": {
     "e2j": "index.js"
