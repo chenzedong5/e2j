@@ -19,7 +19,7 @@
     "debug": "^4.1.1",
     "node-xlsx": "^0.15.0",
     "ora": "^4.0.1",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "repository": {
     "type": "git",
